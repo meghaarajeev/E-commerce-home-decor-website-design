@@ -8,22 +8,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Italiana&family=Lavishly+Yours&family=Nanum+Myeongjo&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Lavishly+Yours&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Jacques+Francois&family=Lavishly+Yours&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     <title>Carto.</title>
 </head>
 
 <body>
-    <div class="home">
+    <header class="home">
         <h1>Carto.</h1>
         <p>Elegance in every corner...</p>
         <img class="main" src="./assets/pic_3.jpeg" alt="">
-        <button>Sign up </button>
-        <button>Log in</button>
-    </div>
+        <div class="button">
+            <button type="button">Sign up</button>
+            <button type="button">Log in</button>
+        </div>
+    </header>
+
+    <header class="sign-up">
+        <h1>Sign Up</h1>
+        <form>
+            <label for="username">Username :</label><br>
+            <input type="text" name="username" id="username"><br>
+            <label for="email">E-mail :</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="password">Password :</label><br>
+            <input type="password" name="password" id="password"><br>
+            <label for="pass">Re-enter Password :</label><br>
+            <input type="password" name="pass" id="pass"><br>
+            <button type="submit">Submit</button>
+        </form>
+        <img class="side" src="./assets/pic_4.jpeg" alt="">
+    </header>
+
+    <header class="sign-up">
+        <h1>Log in</h1>
+        <form>
+            <label for="username">Username :</label><br>
+            <input type="text" name="username" id="username"><br>
+            <label for="password">Password :</label><br>
+            <input type="password" name="password" id="password"><br>
+            <button type="submit">Submit</button>
+        </form>
+
+    </header>
 </body>
 
 </html>
