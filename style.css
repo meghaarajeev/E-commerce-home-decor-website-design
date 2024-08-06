@@ -1,0 +1,64 @@
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lavishly-yours-regular {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #0C3B2E;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home {
+    margin-left: 10%;
+    width: 100%;
+    position: relative;
+}
+
+.home h1 {
+    font-size: 150px;
+    font-family: "Italiana";
+    color:#CAD884;
+    margin-bottom: 1px;
+}
+
+.home p{
+    margin-top:0;
+    font-size: 40px;
+    font-family: "Lavishly Yours";
+    color: #CAD884;
+}
+
+.home button{
+    margin: 2px;
+    background-color:#0C3B2E ;
+    color:#CAD884;
+    padding: 20px 40px;
+    border-radius: 25px;
+    border-color:#CAD884 ;
+    font-family: "Italiana";
+    font-size: 20px;
+}
+
+
+
+.home .main {
+    position: absolute; /*Image allignment*/
+    top:0;
+    right: 0;
+    width: 50%;
+    height: 100vh; 
+    object-fit: cover; 
+}
+
+
